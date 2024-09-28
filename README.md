@@ -29,7 +29,7 @@ Cookie 的个人博客网站 [https://cali.so/](https://cali.so/) 的源代码�
 
 ```bash
 # 安装依赖
-pnpm install
+pnpm install --force
 
 # 启动开发服务器
 pnpm dev
