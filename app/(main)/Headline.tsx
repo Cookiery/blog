@@ -31,6 +31,7 @@ function Designer() {
   )
 }
 
+// Obsessive-compulsive disorder 细节控、强迫症
 function OCD() {
   return (
     <span className="group inline-flex items-center">
@@ -45,6 +46,15 @@ function Founder() {
     <span className="group inline-flex items-center">
       <UserSecurityIcon className="mr-1 inline-flex group-hover:fill-zinc-600/20 dark:group-hover:fill-zinc-200/20" />
       <span>创始人</span>
+    </span>
+  )
+}
+
+function Infra() {
+  return (
+    <span className="group inline-flex items-center">
+      <UserSecurityIcon className="mr-1 inline-flex group-hover:fill-zinc-600/20 dark:group-hover:fill-zinc-200/20" />
+      <span>架构师</span>
     </span>
   )
 }
@@ -65,7 +75,7 @@ export function Headline() {
       >
         <Developer />，<Designer />，
         <span className="block h-2" />
-        <OCD />，<Founder />
+        <OCD />，<Infra />
       </motion.h1>
       <motion.p
         className="mt-6 text-base text-zinc-600 dark:text-zinc-400"
@@ -80,9 +90,8 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Cali，
-          <PeekabooLink href="https://zolplay.com">佐玩</PeekabooLink>
-          创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。
+          我是 Cookie,
+          目前就职于 云鲸智能，从事云原生开发、运维。
           我热爱开发，设计，创新，享受生活，以及在未知领域中探索。
         </Balancer>
       </motion.p>
@@ -99,33 +108,18 @@ export function Headline() {
         }}
       >
         <SocialLink
-          href="https://cali.so/twitter"
+          href="https://x.com/nowaits1"
           aria-label="我的推特"
           platform="twitter"
         />
         <SocialLink
-          href="https://cali.so/youtube"
-          aria-label="我的 YouTube"
-          platform="youtube"
-        />
-        <SocialLink
-          href="https://cali.so/bilibili"
-          aria-label="我的 Bilibili"
-          platform="bilibili"
-        />
-        <SocialLink
-          href="https://cali.so/github"
+          href="https://github.com/Cookiery"
           aria-label="我的 GitHub"
           platform="github"
         />
-        <SocialLink
-          href="https://cali.so/tg"
-          aria-label="我的 Telegram"
-          platform="telegram"
-        />
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
-          href="mailto:hi@cali.so"
+          href="2061803022@qq.com"
           aria-label="我的邮箱"
           platform="mail"
         />

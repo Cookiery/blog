@@ -40,7 +40,10 @@ pnpm build
 
 通过 [Vercel](https://vercel.com/) 一键部署。
 
-### 变更日志
+### 文章列表（TODO）
 
-- 2024-03-13: **v2.0** 更新了 Sanity 到最新版，Next.js 到 v14.1，提取了首页图片和工作经历到 Sanity 设置里。
-- 2024-03-10: **v1.1** 从 PlanetScale 数据库迁移到了 [Neon](https://neon.tech/) 数据库（MySQL -> PostgreSQL），因为 PlanetScale [宣布不再支持免费数据库](https://planetscale.com/blog/planetscale-forever)。
+当下想到的就立马执行，因为当下想到的时候是最有热情的时候，也是效率最高的时候
+
+* 彻底清除Github上某个文件的历史（针对误上传密码文件等情况）
+  * 参考：https://www.jianshu.com/p/f715ab5a9a73
+
