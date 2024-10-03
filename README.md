@@ -1,6 +1,6 @@
 ## Cookie  个人博客网站
 
-Cookie 的个人博客网站 [https://cali.so/](https://cali.so/) 的源代码。
+Cookie 的个人博客网站源代码。
 
 需要其他服务商的环境变量才能正常运行，所以如果你想要在本地运行，需要自己配置。
 
@@ -20,10 +20,6 @@ Cookie 的个人博客网站 [https://cali.so/](https://cali.so/) 的源代码�
 - [Sanity](https://www.sanity.io/)
 - [React Email](https://react.email)
 - [Resend](https://resend.com/)
-
-### 教程
-
-想部署成自己的网站？可以查看 Cali 的[官方教程](https://cali.so/blog/guide-for-cloning-my-site)
 
 ### 本地开发
 
